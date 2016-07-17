@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{! Document Settings }}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    {{! Page Meta }}
+    <title>404 - {{ @blog.title }}</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+
+    {{! fonts }}
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900italic|Open+Sans:400,700" rel="stylesheet" type="text/css" />
+
+    {{! Styles'n'Scripts }}
+    <link href="https://d2v52k3cl9vedd.cloudfront.net/basscss/7.0.4/basscss.min.css"  media="screen" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/bootstrap.min.css"}}" />
+
+    {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+</head>
+<body class="{{body_class}} nav-closed">
+    <div class="clearfix px2">
+      <div class="sm-col-12 lg-col-4 mx-auto">
+        {{! Everything else gets inserted here }}
+        {{{body}}}
+      </div>
+    {{! {{> "footer" }}
+    </div>
+    {{ghost_foot}}
+</body>
+</html>

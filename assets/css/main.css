@@ -1,0 +1,27 @@
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+/* fonts */
+body { font-family: 'Open Sans', sans-serif; }
+
+h1 { font-family: 'Playfair Display'; font-size:4em; font-weight:900; text-transform: uppercase; }
+h2 { font-family: 'Playfair Display'; font-size:1.5em; font-weight:900; text-transform: uppercase; }
+
+.pagination, .post-date { font-size:0.75em; }
+
+a { color:black; text-decoration: underline;}
+a:hover { background: #FDC82C; }
+
+/* header */
+.yellow-block { background: #FDC82C;}
+.main-header-content { text-align:center;}
+h1.page-title { margin-top:0.5em; margin-bottom: -0.25em; }
+h2.page-description { font-size: 1.25em; }
+
+/* post */
+
+h1.post-title { font-size:1.5em; }
+
+/* nav */
+
+.nav-box { text-align:center; }
